@@ -8,17 +8,17 @@ class TodoContainer extends React.Component {
         todos: [
           {
             id: uuidv4(),
-            title: "Setup development environment",
+            title: "Setup the development environment",
             completed: true
           },
           {
             id: uuidv4(),
-            title: "Develop website and add content",
+            title: "Develop the website and add content",
             completed: false
           },
           {
             id: uuidv4(),
-            title: "Deploy to live server",
+            title: "Deploy it to live server",
             completed: false
           }
         ]
